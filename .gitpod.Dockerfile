@@ -6,7 +6,7 @@ FROM ubuntu:latest
 # - sudo, while not required, is recommended to be installed, since the
 #   workspace user (`gitpod`) is non-root and won't be able to install
 #   and use `sudo` to install any other tools in a live workspace.
-RUN sudo apt-get upgrade && apt-get install -yq \
+RUN apt-get upgrade && apt-get install -yq \
 	libncurses5 \
 	libncurses5-dev \
 	m4 \
