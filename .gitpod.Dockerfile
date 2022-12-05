@@ -7,6 +7,49 @@ FROM ubuntu:latest
 #   workspace user (`gitpod`) is non-root and won't be able to install
 #   and use `sudo` to install any other tools in a live workspace.
 RUN apt-get update && apt-get install -yq \
+	libncurses5 \
+	libncurses5-dev \
+	m4 \
+	bison \
+	gawk \
+	flex \
+	libstdc++6-4.4-dev \
+	g++-4.4 \
+	g++ \
+	gengetopt \
+	git \
+	gitk \
+	zlib1g-dev \
+	autoconf \
+	autopoint \
+	libtool \
+	shtool \
+	autogen \
+	mtd-utils \
+	intltool \
+	sharutils \
+	docbook-xsl-* \
+	libstdc++5 \
+	texinfo \
+	dos2unix\
+	xsltproc \
+	uboot-mkimage \
+	device-tree-compiler \
+	python \
+	qemu \
+	gperf \
+	liblzo2-dev \
+	uuid-dev \
+	build-essential \
+	lzma-dev \
+	liblzma-dev \
+	lzma \
+	binutils-dev \
+	patch \
+	cmake \
+	intltool \
+	libglib2.0-dev \
+	gtk-doc-tools \
     libc6-i386 \
 	lib32stdc++6 \
 	lib32z1 \
