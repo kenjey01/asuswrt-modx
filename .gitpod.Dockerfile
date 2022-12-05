@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -yq \
 	lib32z1 \
 	libelf1:i386 \
 	libncurses5:i386 \
+	libstdc++6:i386 \
 	ia32-libs \
 	libc6-dev-i386 \
     sudo \
